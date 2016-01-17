@@ -1,5 +1,5 @@
 class Purchase < ActiveRecord::Base
 	def to_param
-		uuid
+	  uuid
 	end
 end
